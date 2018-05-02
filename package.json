@@ -7,17 +7,19 @@
     "clean": "rimraf dist",
     "build": "cross-env NODE_ENV=production webpack --config webpack.config.production.js",
     "lint": "eslint --ext .js,.jsx .",
-    "deploy": "npm run clean & npm run build && surge -p .",
+    "deploy": "yarn clean && yarn build && surge -p ./dist -d declarative-data-fetching-re2018",
     "export": "spectacle-renderer --delay 3000",
     "start": "cross-env NODE_ENV=development node server.js"
   },
   "author": "",
   "license": "MIT",
   "dependencies": {
+    "@dschau/spectacle-code-slide": "0.4.0",
     "normalize.css": "7.0.0",
     "react": "^16.0.0",
     "react-dom": "^16.0.0",
     "spectacle": "^4.0.0",
+    "spectacle-code-slide": "^0.5.2",
     "spectacle-renderer": "^0.0.3"
   },
   "devDependencies": {
@@ -55,7 +57,7 @@
     "redbox-react": "^1.5.0",
     "rimraf": "^2.6.2",
     "style-loader": "^0.19.0",
-    "surge": "latest",
+    "surge": "^0.20.1",
     "url-loader": "^0.6.2",
     "webpack": "3.8.1",
     "webpack-dev-middleware": "^1.12.0",

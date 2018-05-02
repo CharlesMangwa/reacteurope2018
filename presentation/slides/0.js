@@ -1,21 +1,48 @@
 import React from "react";
-import { Heading, Slide, Text } from "spectacle";
+import PropTypes from "prop-types";
+import { Heading, Layout, Slide, Text, Typeface } from "spectacle";
 
-export default function ({ images }) {
+import Notes from "./notes";
+
+export default function Title({ images }) {
   return (
     <Slide
       bgImage={images.bgPattern}
       bgDarken={0.75}
-      controlColor="redTalk"
-      progressColor="redTalk"
       transition={["zoom"]}
+      key={0}
     >
-      <Heading size={1} lineHeight={1} textColor="redTalk">
-        Declarative data fetching in React
-      </Heading>
-      <Text margin="50px 0 0" textColor="whiteTalk" size={6} fit>
-        control your requests like it ain't nothin'
-      </Text>
+      <Notes
+        title="0. Aloha!"
+        content={[
+          "Hello everyone! I hope you're doing well and are having a great time at this conference so far!"
+        ]}
+      />
+      <Typeface font="Carter One" weight={400}>
+        <Heading size={1} lineHeight={1} textColor="redTalk">
+          Declarative data fetching in React
+        </Heading>
+      </Typeface>
+      <Layout>
+        <Text margin="50px 0 0" textColor="whiteTalk" size={6} fit>
+          Handle your
+        </Text>
+        <Text margin="50px 0 0" textColor="whiteTalk" size={6} fit>
+          {" requests "}
+        </Text>
+        <Text margin="50px 0 0" textColor="whiteTalk" size={6} fit>
+          like it
+        </Text>
+        <Text margin="50px 0 0" textColor="whiteTalk" size={6} fit>
+          {" ain't nothin' "}
+        </Text>
+      </Layout>
     </Slide>
   );
 }
+
+Title.propTypes = {
+  images: PropTypes.shape({
+    bgPattern: PropTypes.string
+  })
+};
