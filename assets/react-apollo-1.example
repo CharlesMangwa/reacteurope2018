@@ -1,0 +1,13 @@
+export default `
+// app.js
+<Query query={GET_USER}>
+  {({ data, error, loading }) => {
+    if (loading) return <p>Loading...</p>
+    if (error) return <p>Error :(</p>
+    
+    return (
+      <p>Welcome back {data.user.firstName}!</p>
+    )
+  }}
+</Query>
+`.trim();

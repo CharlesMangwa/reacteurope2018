@@ -1,0 +1,12 @@
+export default `
+<ConnectedFetch
+  api="https://api.github.com"
+  headers={{ Cache-Control: 'public' }}
+  loader={<p>Loading…</p>}
+  timeout={5000}
+  onIntercept={this._onErrorIntercepted} // 😉
+  //...
+>
+  <AppRoot />
+</ConnectedFetch>
+`.trim();

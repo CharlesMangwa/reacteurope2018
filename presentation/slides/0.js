@@ -24,16 +24,16 @@ export default function Title({ images }) {
         </Heading>
       </Typeface>
       <Layout>
-        <Text margin="50px 0 0" textColor="whiteTalk" size={6} fit>
+        <Text margin="3.125rem 0 0" textColor="whiteTalk" size={6} fit>
           Handle your
         </Text>
-        <Text margin="50px 0 0" textColor="whiteTalk" size={6} fit>
+        <Text margin="3.125rem 0 0" textColor="whiteTalk" size={6} fit>
           {" requests "}
         </Text>
-        <Text margin="50px 0 0" textColor="whiteTalk" size={6} fit>
+        <Text margin="3.125rem 0 0" textColor="whiteTalk" size={6} fit>
           like it
         </Text>
-        <Text margin="50px 0 0" textColor="whiteTalk" size={6} fit>
+        <Text margin="3.125rem 0 0" textColor="whiteTalk" size={6} fit>
           {" ain't nothin' "}
         </Text>
       </Layout>

@@ -1,0 +1,10 @@
+export default `
+async function getUser(userID) {
+  try {
+    const response = await axios.get(\`/api/users/\$\{userID\}\`)
+    console.log("👌", response)
+  } catch (error) {
+    console.log("😭", error)
+  }
+}
+`.trim();

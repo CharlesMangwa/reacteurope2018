@@ -1,0 +1,16 @@
+export default `
+_onSignUp = async () => {
+  const apiResponse = await requestToApi({
+    url: 'https://my-app.com/api/v1/users',
+    body: {{ email: 'midoriya@shonen.com', password: XXX }},
+    headers: {{ Cache-Control: 'no-cache' }},
+    method: 'POST',
+    onProgress:
+      progression => ('♻️ Progressing...', progression),
+    timeout: 2500,
+    onTimeout: () => console.log('⏱️ Timeout!'),
+  })
+
+  this.setState(() => ({ accountCreated: apiResponse.isOK }))
+}
+`.trim();

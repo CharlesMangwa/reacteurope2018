@@ -15,7 +15,7 @@ export default function () {
         title="2. Improvements opportunities"
         content={[
           "...I realized  that I had 2 majors points where I'd like to improve my DX:",
-          "The 1st one was how I handle navigation inside mobile apps and the other one was data fetching.",
+          "The 1st one was how I would handle navigation inside mobile apps and the other one was data fetching.",
           "I had the opportunity to address the former last year on this very stage, when I announced a library I’m working on with a friend called..."
         ]}
       />

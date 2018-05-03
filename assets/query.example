@@ -1,0 +1,12 @@
+export default `// queries.js
+const GET_USER = gql\`
+{
+  user {
+    firstName
+  }
+}
+\`;
+
+
+
+`;

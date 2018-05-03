@@ -19,12 +19,17 @@ export default function () {
           "And as you can see, here it’s more about telling your code *what* you want to get access to, instead of *how* to get it, through this higher-order component. Personally, that’s the main difference I see between imperative and declarative."
         ]}
       />
-      <Heading textFont="Gamja Flower" textColor="blueTalk" margin={50} size={1}>
+      <Heading
+        textFont="Gamja Flower"
+        textColor="blueTalk"
+        size={1}
+        style={{ marginBottom: "3.125rem" }}
+      >
         react-refetch
       </Heading>
       <CodePane
         lang="javascript"
-        source={require("../../assets/react-refetch.example.js").default}
+        source={require("../../assets/react-refetch.example").default}
         textSize={30}
       />
     </Slide>

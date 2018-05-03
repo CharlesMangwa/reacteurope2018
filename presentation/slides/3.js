@@ -18,7 +18,7 @@ export default function () {
           "And today, I’d like to address the former which is:..."
         ]}
       />
-      <Text bold fit size={3} margin="50" textColor="redTalk">
+      <Text bold fit size={3} textColor="redTalk" style={{ marginBottom: "3.125rem" }}>
         {"Navigation 💯"}
       </Text>
       <Code previewBackgroundColor="#333333" textColor="whiteTalk">

@@ -13,7 +13,7 @@ export default function () {
       key={2}
     >
       <Notes
-        title="7. Did sombebody say render 'props'?!"
+        title="7. Did somebody say 'render props'?!"
         content={[
           "At this point, there might be some people in the audience that feel left out. I mean: this is supposed to be a React conference, I’m almost half-way through my talk and I haven’t displayed a single JSX component!"
         ]}

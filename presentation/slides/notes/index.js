@@ -4,13 +4,19 @@ import { Notes } from "spectacle";
 export default function ({ title, content }) {
   return (
     <Notes>
-      <h4>{title || "Slide notes"}</h4>
-      <ul>
+      <h3>{title || "Slide notes"}</h3>
+      <ul
+        style={{
+          fontFamily: "Avenir Next",
+          fontSize: "1.5625rem",
+          lineHeight: "2.3438rem"
+        }}
+      >
         {content.map((note, index) => (
           <li key={index}>
             {note}
-            <br/>
-            <br/>
+            <br />
+            <br />
           </li>
         ))}
       </ul>

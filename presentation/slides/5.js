@@ -19,12 +19,16 @@ export default function () {
           "Basically you’d just use different functions and tell your code how to get the data you want."
         ]}
       />
-      <Heading textColor="redTalk" margin={50} size={2}>
+      <Heading
+        textColor="redTalk"
+        size={2}
+        style={{ marginBottom: "3.125rem" }}
+      >
         Axios
       </Heading>
       <CodePane
         lang="javascript"
-        source={require("../../assets/axios.example.js").default}
+        source={require("../../assets/axios.example").default}
         textSize={25}
         style={{ minWidth: "80vw", marginLeft: "-7.5vw" }}
       />
