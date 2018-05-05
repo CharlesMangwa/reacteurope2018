@@ -24,8 +24,8 @@ export default function () {
         style={{ minWidth: "67vw", marginLeft: "-1vw" }}
         size={1}
       >
-        OK, this Higher-Order Component looks shiny and stuff, but what if I'm
-        more like a render props person, hun 😤?!
+        OK, this hoc looks great but what if I'm
+        more of a render props type of person, hun 😤?!
       </Heading>
     </Slide>
   );

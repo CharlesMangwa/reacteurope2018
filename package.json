@@ -7,20 +7,22 @@
     "clean": "rimraf dist",
     "build": "cross-env NODE_ENV=production webpack --config webpack.config.production.js",
     "lint": "eslint --ext .js,.jsx .",
-    "deploy": "yarn clean && yarn build && surge -p ./dist -d declarative-data-fetching-re2018",
+    "deploy": "yarn clean && yarn build && surge -p . -d ddf-re2018.surge.sh",
     "export": "spectacle-renderer --delay 3000",
     "start": "cross-env NODE_ENV=development node server.js"
   },
   "author": "",
   "license": "MIT",
   "dependencies": {
-    "@dschau/spectacle-code-slide": "0.4.0",
     "normalize.css": "7.0.0",
     "react": "^16.0.0",
     "react-dom": "^16.0.0",
-    "spectacle": "^4.0.0",
+    "spectacle": "4.0.5",
     "spectacle-code-slide": "^0.5.2",
     "spectacle-renderer": "^0.0.3"
+  },
+  "resolutions": {
+    "spectacle/**/prismjs": "1.6.0"
   },
   "devDependencies": {
     "babel-cli": "^6.26.0",

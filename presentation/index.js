@@ -8,7 +8,11 @@ import * as Slides from "./slides";
 require("normalize.css");
 
 const images = {
-  bgPattern: require("../assets/background.png")
+  ad1992: require("../assets/ad1992.jpg"),
+  bgStart: require("../assets/bgStart.png"),
+  bgEnd: require("../assets/bgEnd.png"),
+  jarvisluong: require("../assets/jarvisluong.jpg"),
+  Madumo: require("../assets/Madumo.jpg")
 };
 
 preloader(images);

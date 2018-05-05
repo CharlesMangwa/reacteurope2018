@@ -12,3 +12,5 @@ export { default as N10 } from "./10.js";
 export { default as N11 } from "./11.js";
 export { default as N12 } from "./12.js";
 export { default as N13 } from "./13.js";
+export { default as N14 } from "./14.js";
+export { default as N15 } from "./15.js";

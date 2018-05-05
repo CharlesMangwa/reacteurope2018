@@ -30,9 +30,9 @@ module.exports = {
       test: /\.md$/,
       loader: "html-loader!markdown-loader?gfm=false"
     }, {
-      test: /\.(js|jsx)$/,
+      test: /\.(example|js|jsx)$/,
       exclude: /node_modules/,
-      loader: "babel-loader"
+      loader: "babel-loader",
     }, {
       test: /\.css$/,
       loader: "style-loader!css-loader"

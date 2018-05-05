@@ -7,7 +7,7 @@ import Notes from "./notes";
 export default function Title({ images }) {
   return (
     <Slide
-      bgImage={images.bgPattern}
+      bgImage={images.bgStart}
       bgDarken={0.75}
       transition={["zoom"]}
       key={0}

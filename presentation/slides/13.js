@@ -13,7 +13,7 @@ export default function () {
       key={2}
     >
       <Notes
-        title="12. requestToApi"
+        title="13. ConnectedFetch"
         content={[
           "… `<ConnectedFetch>`.",
           "`<ConnectedFetch>` allows you to share some props to all your `<Fetch>` instances, which can really be timesaving in the longterm.",
