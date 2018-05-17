@@ -13,8 +13,11 @@ export default function () {
       <Notes
         title="1. Introduction"
         content={[
-          "My name is Charles MANGWA, I'm a student here in Paris, I work essentially with React Native and today I’ll be talking about data fetching in React applications.",
-          "Taking a step back with my experience 2 years ago..."
+          "My name is Charles MANGWA",
+          "I'm a student here in Paris",
+          "I work essentially with React Native and a bit of ReasonML lately",
+          "and today I’ll be talking about data fetching in React applications.",
+          "So: taking a step back 2 years ago..."
         ]}
       />
       <Text bold fit size={3} margin="50" textColor="redTalk">

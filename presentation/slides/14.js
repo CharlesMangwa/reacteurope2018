@@ -15,9 +15,8 @@ export default function ({ images }) {
         title="14. Read more & shoutouts"
         content={[
           "The project is already available on GitHub if you want to contribute or just give it a try.",
-          "There's also a more detailed article on Medium where you’ll find a pretty decent amount of informations.",
-          "Last but not least, I really really wanted to thank these 3 wonderful contributors who have already been working on the project, fixing issues and implementing features.",
-          "So that’s all from me for today, thank you all for your time, really appreciate it.",
+          "There's also a more detailed article on Medium where you’ll find some explanations about why the library has been designed this way.",
+          "Last but not least, I really really wanted to thank these 3 wonderful people who have already been working on the project, sending pull requests, fixing issues and implementing features.",
           "I wish you a very nice & warm stay in Paris and feel free to just come and talk to me after if you want to discuss about all this stuff or just chill in the city."
         ]}
       />

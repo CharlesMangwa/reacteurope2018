@@ -16,9 +16,9 @@ export default function () {
         content={[
           " But…there’s a trap in what I just said!",
           "If React Apollo & Apollo Client are meant to be used with a GraphQL API, how are you supposed to use this kinda of cool components with errors and loading states at your disposal, but with a REST API this time?",
-          "We know that since Apollo Client 2.0 we can really easily plug a REST API, unfortunately I couldn't to that for the project I was working on, and didn't find any solution that allows me to have the kind of component but for REST APIs.",
-          "So that’s why after a few months of  work, I came up with something I’m more than excited to introduce you to today.",
-          "So folks, introducing:…"
+          "Well, we know that since Apollo Client 2.0 we can easily plug a REST API through ```apollo-link-rest```, but unfortunately I couldn't use GraphQL at all on the project I was working on, and I didn't find any solution that allows me to have this kind of components but for REST APIs.",
+          "So that’s why after a few months of work, writing some stuff one day & refactoring the whole thing the day after, I came up with something I'm really excited about and released a few days ago.",
+          "So folks, allow me to re-introduce:…"
         ]}
       />
       <Heading textColor="redTalk" size={3} style={{ marginBottom: "5.3125rem" }}>

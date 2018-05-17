@@ -1,5 +1,5 @@
 export default `
-<ConnectedFetch
+<FetchProvider
   api="https://api.github.com"
   headers={{ Cache-Control: 'public' }}
   loader={<p>Loading…</p>}
@@ -8,5 +8,5 @@ export default `
   //...
 >
   <AppRoot />
-</ConnectedFetch>
+</FetchProvider>
 `.trim();

@@ -1,6 +1,6 @@
 import React from "react";
 import PropTypes from "prop-types";
-import { Heading, Slide, Text, Typeface, Layout } from "spectacle";
+import { Heading, Slide, Text, Typeface } from "spectacle";
 
 import Notes from "./notes";
 
@@ -10,8 +10,11 @@ export default function Title({ images }) {
       <Notes
         title="15. Thank you for reading! ✨"
         content={[
-          "See y'all on Twitter fon more chit-chatting!",
-          "Btw, props to Ahmet Iltas for his great illustrations: https://iltasahmet.com/8mart!!"
+          "So that’s all from me for today folks, thank you all for your time, really appreciate it.",
+          "..................................",
+          "..................................",
+          "..................................",
+          "Btw, props to Ahmet Iltas for his great illustrations: https://iltasahmet.com/8mart"
         ]}
       />
       <Typeface font="Carter One" weight={400}>

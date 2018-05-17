@@ -15,8 +15,9 @@ export default function () {
       <Notes
         title="6. Declarative style | react-refetch"
         content={[
-          "The declarative style on the other way, uses a different approach. To give you a concrete example, the 1st result that pops up on NPM when you look for « declarative data fetching » is  `react-refetch`  built by the folks at Heroku:",
-          "And as you can see, here it’s more about telling your code *what* you want to get access to, instead of *how* to get it, through this higher-order component. Personally, that’s the main difference I see between imperative and declarative."
+          "And this is what I consider to be the main difference between imperative and declarative.",
+          "Here it’s more about telling your code **what** you want to get access to, instead of **how** to get it for you, through this higher-order component.",
+          "OK at this point, there might be some people in the audience that feel left out."
         ]}
       />
       <Heading

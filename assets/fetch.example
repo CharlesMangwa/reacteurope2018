@@ -2,7 +2,6 @@ export default `//react-data-fetching
 <Fetch
   path="/users/octocat"
   loader={<p>Loading...</p>}
-  timeout={5000}
 >
   {({ data, error }) => {
     if (error) return <p>Error :O</p>

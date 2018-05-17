@@ -13,7 +13,7 @@ export default function Title({ images }) {
       key={0}
     >
       <Notes
-        title="0. Aloha!"
+        title="0. Aloha! 👋"
         content={[
           "Hello everyone! I hope you're doing well and are having a great time at this conference so far!"
         ]}

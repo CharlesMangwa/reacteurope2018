@@ -1,5 +1,5 @@
 import React from "react";
-import { Heading, Slide } from "spectacle";
+import { Heading, Slide, Text } from "spectacle";
 // import CodeSlide from "spectacle-code-slide";
 
 import Notes from "./notes";
@@ -15,7 +15,8 @@ export default function () {
       <Notes
         title="7. Did somebody say 'render props'?!"
         content={[
-          "At this point, there might be some people in the audience that feel left out. I mean: this is supposed to be a React conference, I’m almost half-way through my talk and I haven’t displayed a single JSX component!"
+          "I mean, let's be honest: as Peggy said earlier, it's 2018 and I'm still about functions and stuff: where are the render props?",
+          "Turns out the latest version of React Apollo she mentioned got us covered for this use case."
         ]}
       />
       <Heading
@@ -27,6 +28,14 @@ export default function () {
         OK, this hoc looks great but what if I'm
         more of a render props type of person, hun 😤?!
       </Heading>
+      <Text
+        textFont="Gamja Flower"
+        textColor="whiteTalk"
+        size={6}
+        style={{ marginTop: "3.125rem" }}
+      >
+        *need some of them components!*
+      </Text>
     </Slide>
   );
 }

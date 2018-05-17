@@ -14,8 +14,8 @@ export default function () {
       <Notes
         title="4. Two different styles"
         content={[
-          "As you can guess from the title of this talk, I see 2 different ways to perform data fetching in React: you can either go imperative-style or declarative-style.",
-          "These may be terms you’ve already heard a lot, but allow to briefly through each one of them."
+          "...you can either go the imperative-style or the declarative-style.",
+          "I know these may be terms you’ve already heard a lot by now, but allow me to briefly go through each one of them."
         ]}
       />
       <Layout>

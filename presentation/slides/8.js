@@ -14,10 +14,9 @@ export default function () {
       <Notes
         title="8. React Apollo"
         content={[
-          "Turns out the latest version of React Apollo got me covered with a great example for this use case.",
-          "You might already by familiar with GraphQL and Apollo Client, but here’s how you can perform the exact same user fetching I showed you earlier with these tools:",
-          "And as we can see, by using this technique, we don’t only get a more convenient code - imo -we also have access to more features, through `loading` and `error`  for instance.",
-          "I took Apollo as an example but, the same thing applies with the `QueryRenderer />` from `relay-modern`!",
+          "You might already by familiar with GraphQL and Apollo Client, but for those of you who are not, here’s how you can perform the exact same user fetching I showed you with these tools",
+          "And as we can see, by using this technique, we don’t only get access to a more convenient code - imo - we also have access to more features, like ```loading``` and ```error``` for instance.",
+          "I took Apollo as an example but, the same thing applies with the ```<QueryRenderer />``` component from Relay!",
           "I don’t know about you, but I really like the idea to just ditch functions in favor of simple components."
         ]}
       />

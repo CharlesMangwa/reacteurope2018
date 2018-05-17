@@ -14,10 +14,9 @@ export default function () {
       <Notes
         title="11. (Un)biased comparison"
         content={[
-          "Here you have a quick and completely biased side-by-side comparison where you can see React Data Fetching in action",
-          "And you’ll notice that the 2 snippets I’m showing you look quite similar in fact; they both give you access to the same `loading`, `error` and `data` variables, even if they rely on 2 completely different query languages, which is something I find really awesome personally.",
-          "In total, the library gives you access to more than 25 props to handle your different API requests and use cases, but I won’t go through all of them, otherwise we’ll never see the end of this talk.",
-          "If you happen to need a good old function to do the job, you also have access to: …"
+          "Here we have a quick and completely biased side-by-side comparison where you can see React Data Fetching in action",
+          "And you’ll notice that the 2 snippets I’m showing you look quite similar; In fact they both give you access to the same ```loading```, ```error``` and ```data``` variables, even if they rely on 2 completely different query languages, which is something I find really awesome tbh witchu.",
+          "The library gives you access to a lot of props to handle your different use cases, but if you happen to need a good old function to do the job, you also have access to: …"
         ]}
       />
       <Layout

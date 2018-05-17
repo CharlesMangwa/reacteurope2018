@@ -15,8 +15,10 @@ export default function () {
       <Notes
         title="5. Imperative style | Axios"
         content={[
-          "If we talk about the 1st one, Axios - with which you might already be familiar to - is probably the most commonly used solution to do that",
-          "Basically you’d just use different functions and tell your code how to get the data you want."
+          "If we talk about the 1st one for instance, Axios - with which you might already be familiar with - is probably the most commonly used solution to do that.",
+          "Basically you’d just use different functions and tell your code how to get the data you want.",
+          "The declarative style on the other hand, uses a different approach.",
+          "To give you a concrete example, the 1st result that pops up on NPM when you look for « declarative data fetching » is `react-refetch` built by the folks at Heroku:"
         ]}
       />
       <Heading
